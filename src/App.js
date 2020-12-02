@@ -6,11 +6,9 @@ import Checkout from './Checkout'
 import Payment from './Payment'
 import { auth } from "./firebase";
 import { useStateValue } from "./StateProvider";
-//import Orders from './Orders'
 import Login from './Login'
 import {loadStripe} from "@stripe/stripe-js/";
 import {Elements} from "@stripe/react-stripe-js";
-//import Orders from ".Orders";
 import './App.css';
 
 const promise = loadStripe('pk_test_51HPAmjDUoecKrUEk7vQNVeJwEAwDtfp0W9WWqV35pzAYnlZhP9ETzHtGC3lgBNhq4x5pkSBHNtWlQY69LIWGayW200OkrOq7yC')
